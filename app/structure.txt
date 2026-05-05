@@ -1,0 +1,16 @@
+/* App directory structure with components and pages */
+
+/app
+  /components
+    /Header.tsx
+    /Footer.tsx
+    /Button.tsx
+    /Input.tsx
+  /pages
+    /index.tsx
+    /about.tsx
+    /contact.tsx
+  /data
+    /sampleData.ts
+  /types
+    /index.d.ts
