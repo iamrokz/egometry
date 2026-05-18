@@ -1,61 +1,42 @@
-# egometry
+# egometry — rokz. : GODS AWAKE
 
-A platform for creators. This is the Next.js project structure for Rokz.
+A Next.js concept slice for **rokz. : GODS AWAKE**, a stylized philosophical-dystopian 2D adventure / atmospheric platformer inside the Egometry universe.
 
-## Project Structure
+## Concept
 
+You do not play a traditional hero. You play a fragmented consciousness travelling through **BABYLON**, a collapsing megastructure made of dystopian Cologne, sacred geometry, broken digital infrastructure, industrial cyberpunk and dream logic.
+
+The game direction is inspired by atmospheric platformers and cinematic exploration:
+
+- minimalist movement-first 2D platforming
+- symbolic environmental storytelling
+- surreal dystopian worldbuilding
+- light metroidvania progression
+- minimal combat and archetypal boss encounters
+- industrial / ambient / glitch-heavy soundtrack integration
+
+## Signature Mechanic
+
+**GLITCH SHIFT** lets the player briefly distort reality:
+
+- phase through selected walls
+- reveal hidden platforms
+- bend the screen with CRT-shift, red artifacts and datamosh fragments
+- turn Egometry from visual identity into game mechanic
+
+## Prototype Website
+
+The current app is a playable-brand landing page / concept pitch for the game, built with the Next.js App Router.
+
+```bash
+npm install
+npm run dev
 ```
-project-root/
-├── public/
-│   ├── images/
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   └── Card.jsx
-│   ├── pages/
-│   │   ├── _app.js
-│   │   ├── index.js
-│   │   ├── about.js
-│   │   └── creators/
-│   │       └── [id].js
-│   ├── styles/
-│   │   ├── globals.css
-│   │   └── Header.module.css
-│   └── data/
-│       └── creators.js
-├── .gitignore
-├── package.json
-├── README.md
-└── next.config.js
-```
 
-### Configuration Files
+Then open [http://localhost:3000](http://localhost:3000).
 
-- **.gitignore**: Lists files and directories that should be ignored by Git.
-- **package.json**: Contains metadata about the project and its dependencies.
-- **README.md**: Documentation for the project.
-- **next.config.js**: Configuration file for Next.js.
+## Available Scripts
 
-### Components
-
-- **Header.jsx**: The header component for the app.
-- **Footer.jsx**: The footer component for the app.
-- **Card.jsx**: A reusable card component for displaying creator profiles.
-
-### Pages
-
-- **_app.js**: Custom App component for global styles and layout.
-- **index.js**: The main landing page of the platform.
-- **about.js**: A page for information about the platform.
-- **creators/[id].js**: Dynamic route to display individual creator profiles.
-
-### Data Files
-
-- **creators.js**: Sample data for creators that can be used for rendering in components.
-
-### Styles
-
-- **globals.css**: Global styles for the application.
-- **Header.module.css**: Module CSS for styling the Header component.
+- `npm run dev` — start the local development server
+- `npm run build` — create a production build
+- `npm run start` — serve the production build
