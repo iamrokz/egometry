@@ -1,16 +1,6 @@
-/* App directory structure with components and pages */
+/* Current App Router structure */
 
 /app
-  /components
-    /Header.tsx
-    /Footer.tsx
-    /Button.tsx
-    /Input.tsx
-  /pages
-    /index.tsx
-    /about.tsx
-    /contact.tsx
-  /data
-    /sampleData.ts
-  /types
-    /index.d.ts
+  /layout.jsx       # Root metadata and global stylesheet import
+  /page.jsx         # rokz. : GODS AWAKE landing page / concept slice
+  /globals.css      # Noir cyber-sacral visual system and responsive layout
